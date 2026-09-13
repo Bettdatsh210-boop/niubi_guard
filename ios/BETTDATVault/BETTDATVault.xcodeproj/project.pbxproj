@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* BETTDATVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* BETTDATVaultApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* VaultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* VaultItem.swift */; };
+		A10000000000000000000004 /* AccessLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* AccessLogEntry.swift */; };
+		A10000000000000000000005 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* AppSettings.swift */; };
+		A10000000000000000000006 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* KeychainService.swift */; };
+		A10000000000000000000007 /* EncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* EncryptionService.swift */; };
+		A10000000000000000000008 /* AccessLogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* AccessLogService.swift */; };
+		A10000000000000000000009 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* SettingsStore.swift */; };
+		A1000000000000000000000A /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* AuthenticationService.swift */; };
+		A1000000000000000000000B /* VaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* VaultStore.swift */; };
+		A1000000000000000000000C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* Theme.swift */; };
+		A1000000000000000000000D /* PrivacyOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* PrivacyOverlay.swift */; };
+		A1000000000000000000000E /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* LockScreenView.swift */; };
+		A1000000000000000000000F /* VaultHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* VaultHomeView.swift */; };
+		A10000000000000000000010 /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* NoteEditorView.swift */; };
+		A10000000000000000000011 /* FileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* FileDetailView.swift */; };
+		A10000000000000000000012 /* AccessLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* AccessLogView.swift */; };
+		A10000000000000000000013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* SettingsView.swift */; };
+		A10000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* Assets.xcassets */; };
+		A10000000000000000000015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C10000000000000000000001 /* BETTDATVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BETTDATVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000001 /* BETTDATVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BETTDATVaultApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* VaultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultItem.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* AccessLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLogEntry.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* EncryptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionService.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* AccessLogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLogService.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* VaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* PrivacyOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyOverlay.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* VaultHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultHomeView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* FileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetailView.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* AccessLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLogView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B10000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+PLACEHOLDER_CONTINUE
