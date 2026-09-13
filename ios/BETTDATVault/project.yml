@@ -1,0 +1,30 @@
+# Optional: regenerate the Xcode project with XcodeGen (`brew install xcodegen && xcodegen`)
+name: BETTDATVault
+options:
+  bundleIdPrefix: com.bettdat
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    IPHONEOS_DEPLOYMENT_TARGET: "18.0"
+targets:
+  BETTDATVault:
+    type: application
+    platform: iOS
+    sources:
+      - BETTDATVault
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.bettdat.vault
+        INFOPLIST_FILE: BETTDATVault/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    info:
+      path: BETTDATVault/Info.plist
